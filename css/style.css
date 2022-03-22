@@ -1,0 +1,111 @@
+/* 
+// General
+*/
+
+body{
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px 10px;
+    cursor:pointer;
+    color: black;
+    font-weight: var(--fontBold);
+    font-size: var(--fontsize-sm);
+    text-align: center;
+}
+
+.social_links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn__social{
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn__social > svg{
+    width: 25px;
+    height: 25px;
+    fill:dimgray;
+}
+
+.btn__social :hover{
+    fill:black;
+}
+
+.header{
+    background-color: var(--color-bg-light);
+    text-align: center;
+}
+
+.main__section{
+    min-height: 100px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: var(--color-bg-light);
+    border-radius: 3px;
+}
+
+h1{
+    font-weight: var(--fontBold);
+    padding: 10px 0px;
+}
+
+
+li{
+    margin-bottom: 10px;
+}
+
+li > p:first-child{
+    font-weight: var(--fontBold);
+}
+
+li > p:last-child{
+    font-size: var(--fontsize-sm);
+}
+
+/*
+// Desktop
+*/
+
+@media (min-width: 700px) {
+
+    body{
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    section{
+        float: left;
+        margin: 10px;
+        border-radius: 3px;
+    }
+
+    .contact_conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_conteiner>*{
+        margin-bottom: 5px;
+    }
+
+    .header{
+        width: 30%;
+        max-width: 300px;
+        min-height: 200px;
+        padding: 10px;
+        background-color: var(--color-bg-light);
+    }
+
+   .main{
+       width: 63%;
+   }
+}
+

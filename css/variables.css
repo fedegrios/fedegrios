@@ -1,0 +1,15 @@
+:root{
+    /* Colors */
+    --color-primary: royalblue;
+    --color-bg-light: white;
+    --color-bg-dark: #f0f0f0;
+    --color-line: gray;
+    --color-link: black;
+
+    /* Font */
+    --fontRegular: 400;
+    --fontBold: 600;
+    --fontsize-sm: 11px;
+    --fontsize-md: 14px;
+    --fontsize-lg: 20px;
+}
