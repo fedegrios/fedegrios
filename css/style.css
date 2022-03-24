@@ -7,7 +7,7 @@ body{
 }
 
 .btn{
-    padding: 5px 10px;
+    padding: 5px 103px;
     cursor:pointer;
     color: black;
     font-weight: var(--fontBold);
@@ -15,9 +15,10 @@ body{
     text-align: center;
 }
 
-.social_links{
+.contact-conteiner{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .btn__social{
@@ -30,8 +31,8 @@ body{
 }
 
 .btn__social > svg{
-    width: 25px;
-    height: 25px;
+    width: 24px;
+    height: 24px;
     fill:dimgray;
 }
 
@@ -42,6 +43,17 @@ body{
 .header{
     background-color: var(--color-bg-light);
     text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.profile-image{
+    height: auto;
+    width: 150px;
+    margin: 30px 5px 5px 0px;
+    border-radius: 9999px;
+    box-shadow: 2px 2px 25px dimgray;
+
 }
 
 .main__section{
@@ -54,7 +66,7 @@ body{
 
 h1{
     font-weight: var(--fontBold);
-    padding: 10px 0px;
+    margin: 20px 0px;
 }
 
 
@@ -108,4 +120,3 @@ li > p:last-child{
        width: 63%;
    }
 }
-
